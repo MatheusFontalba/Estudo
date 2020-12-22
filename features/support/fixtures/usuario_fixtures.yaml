@@ -1,0 +1,24 @@
+Logar_Usuario:
+  email: "matheusfontalba@gmail.com"
+  senha: "12345"
+  mensagem: "Welcome to your account. Here you can manage all of your personal information and orders."
+
+Usuario_Senha_Errada:
+  email: "testecadastroautomacao@testedoteste.com"
+  senha: "abc123"
+  alerta: "Authentication failed."
+
+Usuario_Email_Errado:
+  email: "testeerradocadastroautomacao@testedoteste.com"
+  senha: "12345"
+  alerta: "Authentication failed."
+
+Usuario_Sem_Email:
+  email: ""
+  senha: "12345"
+  alerta: "An email address required."
+
+Usuario_Sem_Senha:
+  email: "testecadastroautomacao@testedoteste.com"
+  senha: ""
+  alerta: "Password is required."

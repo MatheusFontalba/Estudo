@@ -1,0 +1,52 @@
+Dados_Cadastrais: 
+   primeiroNome: "Teste"
+   ultimoNome: "Teste"
+   password: "12345"
+   nascimento:
+      dia: "26"
+      mes: "November"
+      ano: "1996"
+   local:
+      nomeCadastro: "Teste"
+      sobrenomeCadastro: "Teste"
+      endereço: "Rua do Teste"
+      cidade: "OzCity"
+      estado: "Alaska"
+      cep: "12345"
+      telefone: "40028922"
+
+Dados_Errados: 
+   primeiroNome: "Teste"
+   ultimoNome: "Teste"
+   password: "12345" # Senha com um digito a menos
+   nascimento:
+      dia: "26"
+      mes: "November"
+      ano: "1996"
+   local:
+      nomeCadastro: "Teste"
+      sobrenomeCadastro: "Teste"
+      endereço: "Ru" #Dados insuficientes
+      cidade: "OzCity"
+      estado: "Alaska"
+      cep: "12345-123458" # Cep preenchido de forma errada
+      telefone: "40028922"
+      alerta: "The Zip/Postal code you've entered is invalid. It must follow this format: 00000"
+
+Dados_Nulos: 
+   primeiroNome: "Teste"
+   ultimoNome: "Teste"
+   password: "" # Senha com um digito a menos
+   nascimento:
+      dia: "26"
+      mes: "November"
+      ano: "1996"
+   local:
+      nomeCadastro: "Teste"
+      sobrenomeCadastro: "Teste"
+      endereço: "Ru" #Dados insuficientes
+      cidade: "OzCity"
+      estado: "Alaska"
+      cep: "12345-123458" # Cep preenchido de forma errada
+      telefone: "40028922"
+      alerta: "passwd is required."
